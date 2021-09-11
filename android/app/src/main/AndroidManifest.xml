@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.salony">
+   <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="salony"
+        android:label="Salony"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
